@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+
+  .header {
+    text-align: center;
+    background-color: #0077ff;
+    color: white;
+    padding: 20px 0;
+     
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+
+  table th {
+    background-color:#0077ff;
+    color: white;
+  }
+
+  input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color:#0077ff;
+    color: white;
+    margin-left: 100px;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  @media screen and (min-width:600px) {
+    #savebtn{
+      margin-left: 400px;
+    }
+  }
+  .header__2{
+    text-align: center;
+   
+    padding: 20px 0;
+     
+  }
+  h1 {
+    margin: 0;
+  }
+
+  button:hover {
+    background-color: #009df8;
+  }
+ 
+
+  #studenttable {
+    margin-top: 30px;
+  }
+
+  #studenttable th, #studenttable td {
+    text-align: center;
+  }
+
+#gender{
+    cursor: pointer;
+}
+  .gender__2{
+   margin-left: 20px;
+  }

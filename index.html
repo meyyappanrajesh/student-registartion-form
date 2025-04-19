@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- heading- -->
+     <div class="header">
+        <h1>STUDENT FORM</h1>
+     </div>
+
+     <!--Form  -->
+    
+    <form>
+     <table border="2" class="form">
+  <tr>
+    <td>Name:</td> <td><input type="text" id="name" placeholder="Enter your name"></td>
+  </tr>
+  <tr>
+   
+    <td>Age:</td> <td><input type="text" id="age" placeholder="Enter your age"></td>
+  </tr>
+
+  <tr>
+    <td>Gender:</td> 
+    <td id="gender__1"><input type="radio" id="gender" class="gender__1" name="gender" value="Male">Male
+      <input type="radio" id="gender" class="gender__2" name="gender" value="Female">Female
+    </td>
+    
+  </tr>
+
+<tr>
+    <td>Courses:</td> <td><select id="course"><option>Python</option>
+        <option>Java</option>
+        <option>C++</option>
+        <option>Programming in C</option>
+        <option>UI/UX Design</option></select></td>
+</tr>
+<tr>
+    <td>Email:</td> <td><input type="text" id="email" placeholder="Enter your Mail"></td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><button onclick="savedata()" id="savebtn">Save</button></td>
+  </tr>
+     </table>
+</form>
+
+<!-- Result -->
+ <div class="header__2">
+ <h1>STUDENT DETAILS</h1>
+</div>
+<form>
+<table border="2" id="studenttable">
+<tr>
+ <th>Name</th> <th>Age</th><th>Gender</th><th>Courses</th><th>Email</th><th>Action</th>
+
+
+</tr>
+</table>
+
+</form>
+
+
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>
+
